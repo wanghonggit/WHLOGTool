@@ -1,0 +1,6 @@
+framework module Pods_WHLOGTool_Tests {
+  umbrella header "Pods-WHLOGTool_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

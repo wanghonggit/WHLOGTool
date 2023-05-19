@@ -21,15 +21,15 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/wangwei/WHLOGTool'
+  s.homepage         = 'https://github.com/wanghonggit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'wangwei' => '995406924@qq.com' }
-  s.source           = { :git => 'https://github.com/wangwei/WHLOGTool.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/wanghonggit/WHLOGTool.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
-
+  s.ios.deployment_target = '13.0'
+  s.swift_version = '5.0'
   s.source_files = 'WHLOGTool/Classes/**/*'
   
   # s.resource_bundles = {

@@ -1,0 +1,805 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0083FF114FAC359D2726E90DE15352F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		044FBE28FFA96AFCB3F69E84826A3B00 /* Pods-WHLOGTool_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FED57EF455F5082D4695F133F1C50D2 /* Pods-WHLOGTool_Example-dummy.m */; };
+		0715D97703C5B9F5246BEE91D51D3252 /* WHLogHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = E06A2D3D1BEF1D1E67E1215F5D449F1E /* WHLogHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		255FD25330274AAB13CE561FA895B406 /* Pods-WHLOGTool_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A3A539B0ADB5001239DC5D4EADD047 /* Pods-WHLOGTool_Tests-dummy.m */; };
+		316DF9D186517C8E950A5A050C7F5D03 /* Pods-WHLOGTool_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E82B9035B93564B89A8FCA403843381E /* Pods-WHLOGTool_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3674598F6DDF1F952A157D83C61C0949 /* WHLOGTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DB586C2748E4357DA9460DE157D0DBF /* WHLOGTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F956ED3D39B3F8E8A66CD0C68D5167D /* WHDeviceDataMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF410384CAD98C21E61028815AC388 /* WHDeviceDataMonitor.swift */; };
+		41E3A0C292DDDB44E9B334DEA5FD7940 /* WHLogDataMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7358D82079D60F3D70DCBFF7BC3136F4 /* WHLogDataMonitor.swift */; };
+		4269384642FD6C346F055D1E32CC6CA1 /* WHLogMacro.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC1A359BED76F43D064A5AD47FA868D /* WHLogMacro.swift */; };
+		46B2BC9936E17618279651EB55DE28E1 /* Pods-WHLOGTool_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B3DA15E9BDBE96D386DCA5B7C5B6C60 /* Pods-WHLOGTool_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DD6F8E3F3744954344FCE915E307218 /* WHLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66CF9CCEBEB7D58B962D1C4BD188E11 /* WHLogView.swift */; };
+		8B1A6D77BF59D830B3B2463106C903F3 /* WHLOGTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 624749B5202F082CA361361BAD98544C /* WHLOGTool-dummy.m */; };
+		93ADA2B802A919C5710A269EFA53A3CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B09BDCDFD946C9F25DB2CEC5E234E5E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		CB071913122ED2F98DD0369A36BAB1A6 /* WHLogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3500C784404157A30B3D3A4BF369B6 /* WHLogManager.swift */; };
+		CFD3F02BC43B8EA7708318695A43C475 /* WHLogShowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63AB1D41096CA953250D016735EE383 /* WHLogShowButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		97FD318A48A365BE37FDA60FBC26BE46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D106EE06DB0FF3DBFCC3318C125B0082;
+			remoteInfo = "Pods-WHLOGTool_Example";
+		};
+		E69E1EF80B38613E79A44F7A68FC6AA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BEABEBFA12660DE13FB0B4202967065;
+			remoteInfo = WHLOGTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01147286975E65659E5BCD7420A45C4F /* Pods-WHLOGTool_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WHLOGTool_Example-frameworks.sh"; sourceTree = "<group>"; };
+		0A87E92077C4DCE4D6907873D0C585C3 /* WHLOGTool */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WHLOGTool; path = WHLOGTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D3CDA93779CA4FA2D48ECF1FF670B33 /* WHLOGTool-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WHLOGTool-Info.plist"; sourceTree = "<group>"; };
+		12A3A539B0ADB5001239DC5D4EADD047 /* Pods-WHLOGTool_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WHLOGTool_Tests-dummy.m"; sourceTree = "<group>"; };
+		16A59EB139A2C4B4B822A9B7FEC4C850 /* Pods-WHLOGTool_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WHLOGTool_Tests-Info.plist"; sourceTree = "<group>"; };
+		2BDD80ABE1193AEE0AB15640E6586B37 /* Pods-WHLOGTool_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WHLOGTool_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3316F1E819A62B8A24D99233F451B2EC /* Pods-WHLOGTool_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WHLOGTool_Example.modulemap"; sourceTree = "<group>"; };
+		3806E1F898F3435DD8499124520819C6 /* Pods-WHLOGTool_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WHLOGTool_Tests"; path = Pods_WHLOGTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DD8D67C990E18D4D82CE6DDF819EFCA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5B3DA15E9BDBE96D386DCA5B7C5B6C60 /* Pods-WHLOGTool_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WHLOGTool_Example-umbrella.h"; sourceTree = "<group>"; };
+		5D3500C784404157A30B3D3A4BF369B6 /* WHLogManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WHLogManager.swift; path = WHLOGTool/Classes/WHLogManager.swift; sourceTree = "<group>"; };
+		61ACB2163F8C7E9C8ECFB65BE31E2F66 /* Pods-WHLOGTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WHLOGTool_Example.release.xcconfig"; sourceTree = "<group>"; };
+		624749B5202F082CA361361BAD98544C /* WHLOGTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WHLOGTool-dummy.m"; sourceTree = "<group>"; };
+		67325CAB98C1A6874C7B566028C84707 /* Pods-WHLOGTool_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WHLOGTool_Example-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7358D82079D60F3D70DCBFF7BC3136F4 /* WHLogDataMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WHLogDataMonitor.swift; path = WHLOGTool/Classes/WHLogDataMonitor.swift; sourceTree = "<group>"; };
+		79AA898EBF4A7933074FBCF2CEB97B3E /* Pods-WHLOGTool_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WHLOGTool_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7B909C695EC04551181505534E6A6746 /* WHLOGTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WHLOGTool-prefix.pch"; sourceTree = "<group>"; };
+		7DB586C2748E4357DA9460DE157D0DBF /* WHLOGTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WHLOGTool-umbrella.h"; sourceTree = "<group>"; };
+		82A700121E47B53B5BC7F70E416755B9 /* WHLOGTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WHLOGTool.release.xcconfig; sourceTree = "<group>"; };
+		8EEF410384CAD98C21E61028815AC388 /* WHDeviceDataMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WHDeviceDataMonitor.swift; path = WHLOGTool/Classes/WHDeviceDataMonitor.swift; sourceTree = "<group>"; };
+		8F1D825A336AB0F45C5EAFFAD1CB01E0 /* WHLOGTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WHLOGTool.modulemap; sourceTree = "<group>"; };
+		8FED57EF455F5082D4695F133F1C50D2 /* Pods-WHLOGTool_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WHLOGTool_Example-dummy.m"; sourceTree = "<group>"; };
+		92BBEF04C3199AC25E50AC440438612D /* WHLOGTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = WHLOGTool.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96E62A1828FC63F76B82A457BB416D66 /* Pods-WHLOGTool_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WHLOGTool_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A378AFB3B58452A2DA1478BCFFE3A73B /* Pods-WHLOGTool_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WHLOGTool_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A63AB1D41096CA953250D016735EE383 /* WHLogShowButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WHLogShowButton.swift; path = WHLOGTool/Classes/WHLogShowButton.swift; sourceTree = "<group>"; };
+		BC528551185AAD017B5FA6E9BBE4ECAF /* WHLOGTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WHLOGTool.debug.xcconfig; sourceTree = "<group>"; };
+		BC88DBCC34450BD97820E4A05AC244D3 /* Pods-WHLOGTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WHLOGTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C2D62EC4CC9EFE37A617C61C5ACE4C0E /* Pods-WHLOGTool_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WHLOGTool_Tests.modulemap"; sourceTree = "<group>"; };
+		CFC1A359BED76F43D064A5AD47FA868D /* WHLogMacro.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WHLogMacro.swift; path = WHLOGTool/Classes/WHLogMacro.swift; sourceTree = "<group>"; };
+		D132DBF5E59F5BE6C356C7E6105EFEDD /* Pods-WHLOGTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WHLOGTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DF23FD17A660F2CC489A70F316A6AE25 /* Pods-WHLOGTool_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WHLOGTool_Example"; path = Pods_WHLOGTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E06A2D3D1BEF1D1E67E1215F5D449F1E /* WHLogHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WHLogHeader.h; path = WHLOGTool/Classes/WHLogHeader.h; sourceTree = "<group>"; };
+		E33517639A8D9734AFC771A1AD0490A4 /* Pods-WHLOGTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WHLOGTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E82B9035B93564B89A8FCA403843381E /* Pods-WHLOGTool_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WHLOGTool_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F2C416DE708FBAFDCAFFE4AFBDE74BB0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F66CF9CCEBEB7D58B962D1C4BD188E11 /* WHLogView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WHLogView.swift; path = WHLOGTool/Classes/WHLogView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2256342F6AF8696F5C239F6902789BA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93ADA2B802A919C5710A269EFA53A3CD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		942101FD517B5BBDBF8EAE6B7C1B1B0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0083FF114FAC359D2726E90DE15352F3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E39A2E6DC0CDD08D51790ADD065047FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B09BDCDFD946C9F25DB2CEC5E234E5E8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2476306982DF355049267F19E022047A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E81FBB11A78F72D707FB6A12A3C221A7 /* Pods-WHLOGTool_Example */,
+				F2E27EE82C86D9835596BA1E12B295BE /* Pods-WHLOGTool_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		26628A2B88BCD2D072D07D2728F18AD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF23FD17A660F2CC489A70F316A6AE25 /* Pods-WHLOGTool_Example */,
+				3806E1F898F3435DD8499124520819C6 /* Pods-WHLOGTool_Tests */,
+				0A87E92077C4DCE4D6907873D0C585C3 /* WHLOGTool */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B7E333191618FC6F26FDF747EFEFE27 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CAA8CE74AEDFA9BD4FAA8B9D2BC47943 /* WHLOGTool */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		ACEB0E48A344D6409C282D309D4A5247 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F1D825A336AB0F45C5EAFFAD1CB01E0 /* WHLOGTool.modulemap */,
+				624749B5202F082CA361361BAD98544C /* WHLOGTool-dummy.m */,
+				0D3CDA93779CA4FA2D48ECF1FF670B33 /* WHLOGTool-Info.plist */,
+				7B909C695EC04551181505534E6A6746 /* WHLOGTool-prefix.pch */,
+				7DB586C2748E4357DA9460DE157D0DBF /* WHLOGTool-umbrella.h */,
+				BC528551185AAD017B5FA6E9BBE4ECAF /* WHLOGTool.debug.xcconfig */,
+				82A700121E47B53B5BC7F70E416755B9 /* WHLOGTool.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WHLOGTool";
+			sourceTree = "<group>";
+		};
+		CAA8CE74AEDFA9BD4FAA8B9D2BC47943 /* WHLOGTool */ = {
+			isa = PBXGroup;
+			children = (
+				8EEF410384CAD98C21E61028815AC388 /* WHDeviceDataMonitor.swift */,
+				7358D82079D60F3D70DCBFF7BC3136F4 /* WHLogDataMonitor.swift */,
+				E06A2D3D1BEF1D1E67E1215F5D449F1E /* WHLogHeader.h */,
+				CFC1A359BED76F43D064A5AD47FA868D /* WHLogMacro.swift */,
+				5D3500C784404157A30B3D3A4BF369B6 /* WHLogManager.swift */,
+				A63AB1D41096CA953250D016735EE383 /* WHLogShowButton.swift */,
+				F66CF9CCEBEB7D58B962D1C4BD188E11 /* WHLogView.swift */,
+				EE309D767588D3FC710788EFAE23D2E4 /* Pod */,
+				ACEB0E48A344D6409C282D309D4A5247 /* Support Files */,
+			);
+			name = WHLOGTool;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				4B7E333191618FC6F26FDF747EFEFE27 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				26628A2B88BCD2D072D07D2728F18AD4 /* Products */,
+				2476306982DF355049267F19E022047A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E81FBB11A78F72D707FB6A12A3C221A7 /* Pods-WHLOGTool_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3316F1E819A62B8A24D99233F451B2EC /* Pods-WHLOGTool_Example.modulemap */,
+				79AA898EBF4A7933074FBCF2CEB97B3E /* Pods-WHLOGTool_Example-acknowledgements.markdown */,
+				2BDD80ABE1193AEE0AB15640E6586B37 /* Pods-WHLOGTool_Example-acknowledgements.plist */,
+				8FED57EF455F5082D4695F133F1C50D2 /* Pods-WHLOGTool_Example-dummy.m */,
+				01147286975E65659E5BCD7420A45C4F /* Pods-WHLOGTool_Example-frameworks.sh */,
+				67325CAB98C1A6874C7B566028C84707 /* Pods-WHLOGTool_Example-Info.plist */,
+				5B3DA15E9BDBE96D386DCA5B7C5B6C60 /* Pods-WHLOGTool_Example-umbrella.h */,
+				E33517639A8D9734AFC771A1AD0490A4 /* Pods-WHLOGTool_Example.debug.xcconfig */,
+				61ACB2163F8C7E9C8ECFB65BE31E2F66 /* Pods-WHLOGTool_Example.release.xcconfig */,
+			);
+			name = "Pods-WHLOGTool_Example";
+			path = "Target Support Files/Pods-WHLOGTool_Example";
+			sourceTree = "<group>";
+		};
+		EE309D767588D3FC710788EFAE23D2E4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F2C416DE708FBAFDCAFFE4AFBDE74BB0 /* LICENSE */,
+				3DD8D67C990E18D4D82CE6DDF819EFCA /* README.md */,
+				92BBEF04C3199AC25E50AC440438612D /* WHLOGTool.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F2E27EE82C86D9835596BA1E12B295BE /* Pods-WHLOGTool_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C2D62EC4CC9EFE37A617C61C5ACE4C0E /* Pods-WHLOGTool_Tests.modulemap */,
+				96E62A1828FC63F76B82A457BB416D66 /* Pods-WHLOGTool_Tests-acknowledgements.markdown */,
+				A378AFB3B58452A2DA1478BCFFE3A73B /* Pods-WHLOGTool_Tests-acknowledgements.plist */,
+				12A3A539B0ADB5001239DC5D4EADD047 /* Pods-WHLOGTool_Tests-dummy.m */,
+				16A59EB139A2C4B4B822A9B7FEC4C850 /* Pods-WHLOGTool_Tests-Info.plist */,
+				E82B9035B93564B89A8FCA403843381E /* Pods-WHLOGTool_Tests-umbrella.h */,
+				D132DBF5E59F5BE6C356C7E6105EFEDD /* Pods-WHLOGTool_Tests.debug.xcconfig */,
+				BC88DBCC34450BD97820E4A05AC244D3 /* Pods-WHLOGTool_Tests.release.xcconfig */,
+			);
+			name = "Pods-WHLOGTool_Tests";
+			path = "Target Support Files/Pods-WHLOGTool_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		400704B630FC53D9AF6E9957E275F1B5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0715D97703C5B9F5246BEE91D51D3252 /* WHLogHeader.h in Headers */,
+				3674598F6DDF1F952A157D83C61C0949 /* WHLOGTool-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		865AA2DAC68BD179B8D0DAF34951D180 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46B2BC9936E17618279651EB55DE28E1 /* Pods-WHLOGTool_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7E9A8B21F2049340043F280BBF936F4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				316DF9D186517C8E950A5A050C7F5D03 /* Pods-WHLOGTool_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7BEABEBFA12660DE13FB0B4202967065 /* WHLOGTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46E7DF5D80FE34A54A16537BA0C94E77 /* Build configuration list for PBXNativeTarget "WHLOGTool" */;
+			buildPhases = (
+				400704B630FC53D9AF6E9957E275F1B5 /* Headers */,
+				86235C046C2EC0C22FBD1643ED311A3A /* Sources */,
+				E39A2E6DC0CDD08D51790ADD065047FD /* Frameworks */,
+				24A51361BF53888F0D92DD02F08626F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WHLOGTool;
+			productName = WHLOGTool;
+			productReference = 0A87E92077C4DCE4D6907873D0C585C3 /* WHLOGTool */;
+			productType = "com.apple.product-type.framework";
+		};
+		D106EE06DB0FF3DBFCC3318C125B0082 /* Pods-WHLOGTool_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42B9A4BA8C7C1C4A075A9BE4C2E505A6 /* Build configuration list for PBXNativeTarget "Pods-WHLOGTool_Example" */;
+			buildPhases = (
+				865AA2DAC68BD179B8D0DAF34951D180 /* Headers */,
+				118F147361C421C8FE7714ECC4A1D2C6 /* Sources */,
+				2256342F6AF8696F5C239F6902789BA5 /* Frameworks */,
+				EB5C9D6DCCFB95FFB603BFFB59A5D870 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99805689BBF473D4FD4BEC39798CA9A1 /* PBXTargetDependency */,
+			);
+			name = "Pods-WHLOGTool_Example";
+			productName = Pods_WHLOGTool_Example;
+			productReference = DF23FD17A660F2CC489A70F316A6AE25 /* Pods-WHLOGTool_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		DBBD6D55C785436AC1524C312B7CB773 /* Pods-WHLOGTool_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFAE2B87E4A501682421F14235D28599 /* Build configuration list for PBXNativeTarget "Pods-WHLOGTool_Tests" */;
+			buildPhases = (
+				B7E9A8B21F2049340043F280BBF936F4 /* Headers */,
+				02CFED261CF05B977985703E701E66AD /* Sources */,
+				942101FD517B5BBDBF8EAE6B7C1B1B0B /* Frameworks */,
+				65CA139495F04FABC4554AC6C68E218D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E2508F1858DEAC61D4CF4327997999A /* PBXTargetDependency */,
+			);
+			name = "Pods-WHLOGTool_Tests";
+			productName = Pods_WHLOGTool_Tests;
+			productReference = 3806E1F898F3435DD8499124520819C6 /* Pods-WHLOGTool_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 26628A2B88BCD2D072D07D2728F18AD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D106EE06DB0FF3DBFCC3318C125B0082 /* Pods-WHLOGTool_Example */,
+				DBBD6D55C785436AC1524C312B7CB773 /* Pods-WHLOGTool_Tests */,
+				7BEABEBFA12660DE13FB0B4202967065 /* WHLOGTool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24A51361BF53888F0D92DD02F08626F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65CA139495F04FABC4554AC6C68E218D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB5C9D6DCCFB95FFB603BFFB59A5D870 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02CFED261CF05B977985703E701E66AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255FD25330274AAB13CE561FA895B406 /* Pods-WHLOGTool_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		118F147361C421C8FE7714ECC4A1D2C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044FBE28FFA96AFCB3F69E84826A3B00 /* Pods-WHLOGTool_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86235C046C2EC0C22FBD1643ED311A3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F956ED3D39B3F8E8A66CD0C68D5167D /* WHDeviceDataMonitor.swift in Sources */,
+				41E3A0C292DDDB44E9B334DEA5FD7940 /* WHLogDataMonitor.swift in Sources */,
+				4269384642FD6C346F055D1E32CC6CA1 /* WHLogMacro.swift in Sources */,
+				CB071913122ED2F98DD0369A36BAB1A6 /* WHLogManager.swift in Sources */,
+				CFD3F02BC43B8EA7708318695A43C475 /* WHLogShowButton.swift in Sources */,
+				5DD6F8E3F3744954344FCE915E307218 /* WHLogView.swift in Sources */,
+				8B1A6D77BF59D830B3B2463106C903F3 /* WHLOGTool-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E2508F1858DEAC61D4CF4327997999A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WHLOGTool_Example";
+			target = D106EE06DB0FF3DBFCC3318C125B0082 /* Pods-WHLOGTool_Example */;
+			targetProxy = 97FD318A48A365BE37FDA60FBC26BE46 /* PBXContainerItemProxy */;
+		};
+		99805689BBF473D4FD4BEC39798CA9A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WHLOGTool;
+			target = 7BEABEBFA12660DE13FB0B4202967065 /* WHLOGTool */;
+			targetProxy = E69E1EF80B38613E79A44F7A68FC6AA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6177E36648788418D65C8528C29C9AD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC528551185AAD017B5FA6E9BBE4ECAF /* WHLOGTool.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WHLOGTool/WHLOGTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WHLOGTool/WHLOGTool-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WHLOGTool/WHLOGTool.modulemap";
+				PRODUCT_MODULE_NAME = WHLOGTool;
+				PRODUCT_NAME = WHLOGTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6209A92C787BE93733F35AA096FBE0F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E33517639A8D9734AFC771A1AD0490A4 /* Pods-WHLOGTool_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WHLOGTool_Example/Pods-WHLOGTool_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WHLOGTool_Example/Pods-WHLOGTool_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6C4E127C9D72571ECEF75D613503801B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC88DBCC34450BD97820E4A05AC244D3 /* Pods-WHLOGTool_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WHLOGTool_Tests/Pods-WHLOGTool_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WHLOGTool_Tests/Pods-WHLOGTool_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		75497A4480EBB8A8EC48D2ECB4FB97E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61ACB2163F8C7E9C8ECFB65BE31E2F66 /* Pods-WHLOGTool_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WHLOGTool_Example/Pods-WHLOGTool_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WHLOGTool_Example/Pods-WHLOGTool_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		84C7D5E401C5CC38CCBCDA7ADEA962E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82A700121E47B53B5BC7F70E416755B9 /* WHLOGTool.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WHLOGTool/WHLOGTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WHLOGTool/WHLOGTool-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WHLOGTool/WHLOGTool.modulemap";
+				PRODUCT_MODULE_NAME = WHLOGTool;
+				PRODUCT_NAME = WHLOGTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8F2B3FF5A26C1FCAE2C8EDE2E7E294D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D132DBF5E59F5BE6C356C7E6105EFEDD /* Pods-WHLOGTool_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WHLOGTool_Tests/Pods-WHLOGTool_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WHLOGTool_Tests/Pods-WHLOGTool_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42B9A4BA8C7C1C4A075A9BE4C2E505A6 /* Build configuration list for PBXNativeTarget "Pods-WHLOGTool_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6209A92C787BE93733F35AA096FBE0F4 /* Debug */,
+				75497A4480EBB8A8EC48D2ECB4FB97E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46E7DF5D80FE34A54A16537BA0C94E77 /* Build configuration list for PBXNativeTarget "WHLOGTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6177E36648788418D65C8528C29C9AD2 /* Debug */,
+				84C7D5E401C5CC38CCBCDA7ADEA962E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFAE2B87E4A501682421F14235D28599 /* Build configuration list for PBXNativeTarget "Pods-WHLOGTool_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8F2B3FF5A26C1FCAE2C8EDE2E7E294D /* Debug */,
+				6C4E127C9D72571ECEF75D613503801B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
