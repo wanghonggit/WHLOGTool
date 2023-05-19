@@ -22,7 +22,7 @@ pod 'WHLOGTool'
 
 ## Author
 
-wangwei, 995406924@qq.com
+wanghong, 995406924@qq.com
 
 ## License
 
