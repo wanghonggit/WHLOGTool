@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'WHLOGTool_Example' do
+  pod 'WHLOGTool', :path => '../'
+
+  target 'WHLOGTool_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
