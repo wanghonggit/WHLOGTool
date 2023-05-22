@@ -13,12 +13,14 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-WHLOGTool is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+通过 [CocoaPods](https://cocoapods.org)安装. 在 Podfile中加入以下代码:
 
 ```ruby
 pod 'WHLOGTool'
 ```
+
+在需要显示log日志的地方加入以下代码：
+LogManager.initialization()
 
 ## Author
 
