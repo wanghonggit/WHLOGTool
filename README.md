@@ -19,7 +19,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 pod 'WHLOGTool'
 ```
 
-在需要显示log日志的地方加入以下代码：
+在需要显示log日志的地方调用初始化函数：
 ```ruby
 LogManager.initialization()
 ```
