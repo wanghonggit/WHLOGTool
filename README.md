@@ -21,7 +21,7 @@ pod 'WHLOGTool'
 
 在需要显示log日志的地方调用初始化函数：
 ```ruby
-LogManager.initialization()
+WHLogManager.initialization()
 ```
 
 ## Author
