@@ -20,7 +20,9 @@ pod 'WHLOGTool'
 ```
 
 在需要显示log日志的地方加入以下代码：
+```ruby
 LogManager.initialization()
+```
 
 ## Author
 
